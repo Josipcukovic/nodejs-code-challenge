@@ -1,0 +1,4 @@
+asdf [www.google.com [www.google.com www.random.com  www.mathos2.hr  [www.mathos.hr]
+arg1 arg2222 [www.google.com][something before url https://www.ferit.unios.hr/ test test test bla bla] www.blabla.com\]
+
+bla bla dadads [www.google.com] fg  [https://www.fazos2.unios.hr/ https://www.fazos.unios.hr/]

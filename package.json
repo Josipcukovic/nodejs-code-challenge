@@ -1,0 +1,30 @@
+{
+  "name": "ingemark",
+  "version": "1.0.0",
+  "description": "this is nodejs challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 70000 --import=tsx src/tests/**/*.test.ts --exit",
+    "start": "node dist/index.js",
+    "tsc": "tsc",
+    "build": "npm run tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.9",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.1"
+  }
+}
