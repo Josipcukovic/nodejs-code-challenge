@@ -4,8 +4,8 @@ This script is parsing the file for URLs within square brackets ([]) and returns
 
 {
 url: string,
-title: string,
-email: string (SHA-256 hash)
+title?: string,
+email?: string (SHA-256 hash)
 }
 
 ## Table of Contents
@@ -61,3 +61,5 @@ npm run start
 ```
 
 After that, simply enter your text. For example, if you want to parse www.google.com, write [www.google.com]. This will parse a stdin stream, and you should see a response similar to this: { url: 'http://www.google.com/', title: 'Google' }.
+
+https://github.com/Josipcukovic/nodejs-code-challenge
